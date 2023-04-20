@@ -3,7 +3,7 @@ Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
 
 for this Project we use local minikube cluster & also you need to download Argo CD localy . 
 # install ArgoCD in k8s 
-kubectl create namespace argocd
+kubectl create namespace argocd <br>
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
 # access ArgoCD UI
